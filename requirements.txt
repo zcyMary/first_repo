@@ -1,0 +1,4 @@
+pandas
+wbgapi
+matplotlib
+jupyter
