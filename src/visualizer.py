@@ -3,12 +3,9 @@ import matplotlib.pyplot as plt
 
 def plot_gdp_trends(df_long, title='GDP Trends (2000–2022)'):
     """
-    绘制各国 GDP 随时间变化的折线图。
-
     Parameters
     ----------
     df_long : pd.DataFrame
-        clean_gdp_data 返回的长表，需包含 Country、year、gdp 列。
     title : str
 
     Returns
