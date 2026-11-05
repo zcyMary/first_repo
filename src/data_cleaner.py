@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def clean_gdp_data(df):
+def clean_gdp_data(df: pd.DataFrame) -> pd.DataFrame:
     """
     Parameters
     ----------
