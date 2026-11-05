@@ -1,7 +1,12 @@
 import matplotlib.pyplot as plt
+import pandas as pd
+from matplotlib.figure import Figure
 
 
-def plot_gdp_trends(df_long, title='GDP Trends (2000–2022)'):
+def plot_gdp_trends(
+    df_long: pd.DataFrame,
+    title: str = 'GDP Trends (2000–2022)',
+) -> Figure:
     """
     Parameters
     ----------
