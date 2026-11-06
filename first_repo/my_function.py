@@ -1,6 +1,8 @@
-def my_function():
+def my_function() -> None:
     print("Hello from my_function!")
-def multiply(a, b):
+
+
+def multiply(a: int | float, b: int | float) -> int | float:
     """
     This function takes two arguments, a and b, and returns their product.
 
