@@ -22,7 +22,12 @@ def plot_gdp_trends(
     countries = df_long['Country'].unique()
     for country in countries:
         subset = df_long[df_long['Country'] == country]
-        ax.plot(subset['year'], subset['gdp'] / 1e12, label=country, linewidth=2)
+        ax.plot(
+            subset['year'],
+            subset['gdp'] / 1e12,
+            label=country,
+            linewidth=2,
+        )
 
     ax.set_xlabel('Year')
     ax.set_ylabel('GDP (Trillion USD)')
